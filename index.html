@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js" defer></script>
+</head>
+<body>
+    <div id="fundo">
+    <button  id="abrir" onclick="abrirFechar()">login/cadastro</button>
+    <div id="modal-fade" class="hide"></div>
+    <div id="modal"  class="hide">
+        <div class="modal-header">
+            <h2>login/CADASTRO</h2>
+           
+        </div>
+        <div id="modal-body">
+            Nome: <input oninput="nome()" id="name" type="text">
+            E-mail: <input oninput="email()" id="emaill" type="email">
+            telefone: <input id="telefone" oninput="mascaratelefone()" maxlength="14" type="text">
+            CPF: <input id="newcpf" oninput="cpf()" maxlength="14" type="text">
+            Senha: <input oninput="senha()" id="sanha" type="password">
+        </div>
+        <a href="hi.html"><button id="fechar" onclick="abrirFechar()">Fechar</button></a>
+    </div>
+</body>
+</html>

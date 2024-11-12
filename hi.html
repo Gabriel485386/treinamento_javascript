@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="java.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="fundo">
+        <a href="index.html"><button id="abrir" onclick="abrirFechar()">voltar</button> </a> 
+    </div>
+            <div id="atorage">
+                Nome: <input oninput="nome()" id="nome" type="text">
+                E-mail: <input oninput="email()" id="email" type="email">
+                telefone: <input id="tel" oninput="mascaratelefone()" maxlength="14" type="text">
+                CPF: <input id="cpf" oninput="cpf()" maxlength="14" type="text">
+                Senha: <input oninput="senha()"id=senha type="password">
+            </div>
+</body>
+</html>
